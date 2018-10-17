@@ -19,6 +19,7 @@ contract SimpleContract {
     function getNumber()
         public
         view
+        returns (uint)
     {
 
     }

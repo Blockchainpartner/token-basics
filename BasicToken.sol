@@ -18,6 +18,7 @@ contract BasicToken {
     function getBalance(address _a)
         public
         view
+        returns (uint)
     {
 
     }

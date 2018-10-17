@@ -8,13 +8,15 @@ contract MyToken is ERC20Mintable {
     uint public decimals;
     string public symbol;
 
+    uint public price;
+
     constructor()
         public
     {
 
     }
 
-    function sellTokens()
+    function buyTokens()
         public
         payable
     {
